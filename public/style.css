@@ -1,0 +1,179 @@
+.bgimg{
+    background-image: url('../images/1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:660px;
+}
+.container a{
+    font-size: 25px;
+}
+.headerset{
+    padding:130px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size: 45px;
+    font-family:fantasy;
+    font-style:oblique;
+    font-weight: bolder;
+    color:darkred;
+}
+.headerset h1{
+    font-size: 50px;
+    font-family:fantasy;
+    font-style:oblique;
+    font-weight: bolder;
+    color:darkred;
+}
+/* ...........................services */
+.services{
+    padding :100px 70px 60px;
+    height:700px;
+}
+.imgsetting{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin:80px 0px;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.fa-hand-o-down{
+    margin: 22px;
+} 
+.fa-bed{
+    margin: 22px;
+}
+.fa-cubes{
+    margin: 22px;
+}
+.rowsetting p{
+    padding:17px;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.rowsetting h3{
+    font-size: 22px;
+}
+/* .............portfolio............. */
+.portfolio{
+    height:1100 px;
+    width: 100%;
+    padding:140px 15px 50px
+}
+.portfolio h4{
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.card{      
+    margin-top: 50px;
+}
+
+/* contact........................ */
+.contact h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.contact{
+    height:700 px;
+    width: 100%;
+    padding:140px 15px 50px;
+}
+.contact input{
+    border-color: black;
+}
+.contact label{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact button{
+    background-color: darkred;
+    border: 3px black solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+.portfolio{
+    background-image: linear-gradient(#b4b4b4,darkred);
+}
+ .services{
+    background-color:	#E8E8E8 ;
+}
+.contact{
+    background-color: 		#E8E8E8;
+}
+.card:hover{
+    transform: translateY(-25px); 
+}
+
+/* .......reponsive............. */
+@media(max-width:596px){
+    .services{
+        height: 1000px;
+    }
+}
+@media(max-width:606px){
+    .services{
+        height: 1000px;
+    }
+}
+@media(max-width:496px){
+    .services{
+        height: 1300px;
+    }
+    .headerset h1{
+        font-size: 40px;
+    }
+    .headerset h2{
+        font-size: 30px;
+    }
+}
+@media(max-width:296px){
+    .services{
+        height: 1600px;
+    }
+    .headerset h1{
+        font-size: 30px;
+    }
+    .headerset h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:712px){
+    .services{
+        height: 1200px;
+    }
+}
+@media(max-width:384px){
+    .services{
+        height: 1600px;
+    }
+}
+@media(max-width:429px){
+    .services{
+        height: 1600px;
+    }}
+    @media(max-width:263px){
+        .services{
+            height: 1700px;
+        }
+    }
